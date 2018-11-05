@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[我的第一篇文章]]></title>
-    <url>%2F%E7%94%9F%E6%B4%BB%2F10%E6%9C%88%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%2F</url>
-    <content type="text"><![CDATA[正文内容开始啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦流量流量]]></content>
+    <title><![CDATA[（一）网页结构及常用标记]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91-%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5-HTML%2F%EF%BC%88%E4%B8%80%EF%BC%89%E7%BD%91%E9%A1%B5%E7%BB%93%E6%9E%84%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%A0%87%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[1、web应用程序及其组成部分网站分类 1、从访问权限：外网访问 百度、淘宝、京东 局域网访问 大学校园网 教学管理系统 2、从业务功能：电子商务 OA办公自动化系统 CRM客户关系管理系统 web应用程序的组成部分： 服务器 浏览器 网页 HTTP协议（网络） 服务器 Apache Server httpd ---&gt; PHP语言 Apache Tomcat ---&gt; Java语言 访问https://www.baidu.com 在浏览器中通过点击超链接或点击某些按钮，将一些信息通过HTTP协议发送到服务器上，我们称这个发送过程为请求； 服务器收到本次请求，它将对本次请求进行专门的处理，然后将处理结果通过网络又发送给浏览器，我们称这个过程叫响应。 2、网页及其组成部分、分类网页其实就是一个文本文件，它必须以.html或.htm后后缀名称。 java语言 .jsp php语言中 .php .asp 访问速度快 漂亮精美绚丽 方便实用 hao123.com ---&gt;访问量高 被360公司收购了 1）组成部分 内容 结构 样式 CSS 行为 JavaScript jQuery 2）网页的基本结构 &lt;html&gt; &lt;head&gt;&lt;/head&gt; &lt;body&gt; 内容 &lt;/body&gt; &lt;/html&gt; 3）分类 静态网页：内容不随访问者、访问时间改变而改变 动态网页：内容随访问者、访问时间改变而改变 3、HTML标记语言超文本标记语言,HyperText Markup Language 标记(元素) &lt;标记名称&gt;&lt;/标记名称&gt; 围堵元素 &lt;标记名称 /&gt; 自开自闭元素 4、HTML文件的后缀名5、HTML代码书写规范1）代码格式：被包含的代码要空4格 2）围堵元素必须有开头，也必须有结尾 3）自开自闭元素，最后面有一个斜杠 4）标记的属性值一定要用双引号或单引号包起来 5）属性与另一个属性之间用空格隔开 6、常用的HTML标记标题h1 h2 h3 h4 h5 h6 br 换行 hr 横线 paragraph 段落p division 分割，分开的div 文本标记 span 跨域 横跨 b i em font label strong address 7、特殊字符123456&lt; &amp;lt;&gt; &amp;gt;空格 &amp;nbsp; &amp; &amp;amp;版权 &amp;copy;关闭 &amp;times; 8、图像图片文件的常见格式： .jpg .jpeg .png .bmp .ico .gif &lt;img src=&quot;2015-06-24五杀.jpg&quot; /&gt; 注意src属性值为当前html文件与图片文件的相对路径或图片文件的绝对路径 9、超链接(重要)作用：用户点击后跳转新页面 &lt;a href=&quot;链接地址&quot; target=&quot;_blank&quot;&gt;链接内容&lt;/a&gt; href属性值 表示该超链接被点击后页面将要跳到哪儿去 target=&quot;_blank&quot; 表示新开一个标签页来展示href属性值内的网页]]></content>
       <categories>
-        <category>生活</category>
-        <category>10月</category>
+        <category>学习笔记 - 前端开发 - 第一阶段 - HTML</category>
       </categories>
       <tags>
-        <tag>测试</tag>
-        <tag>秒删</tag>
+        <tag>前端笔记</tag>
+        <tag>HTML</tag>
       </tags>
   </entry>
 </search>
