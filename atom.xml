@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-06T01:55:54.686Z</updated>
+  <updated>2018-11-06T02:58:08.113Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,69 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>（三）表单和表格布局</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/HTML/%EF%BC%88%E4%B8%89%EF%BC%89%E8%A1%A8%E5%8D%95%E5%92%8C%E8%A1%A8%E6%A0%BC%E5%B8%83%E5%B1%80/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/HTML/（三）表单和表格布局/</id>
+    <published>2018-11-06T02:56:30.000Z</published>
+    <updated>2018-11-06T02:58:08.113Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1、表单&quot;&gt;&lt;a href=&quot;#1、表单&quot; class=&quot;headerlink&quot; title=&quot;1、表单&quot;&gt;&lt;/a&gt;1、表单&lt;/h3&gt;&lt;h4 id=&quot;1）概念&quot;&gt;&lt;a href=&quot;#1）概念&quot; class=&quot;headerlink&quot; title=&quot;1）概念&quot;&gt;&lt;/a&gt;1）概念&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;表单是在网页上提供给用户输入信息的一组输入控件元素的集合。将用户在网页上输入的信息传输到web服务器端，目的是为了完成某种特定功能。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="前端开发" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="第一阶段" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    
+      <category term="HTML" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/HTML/"/>
+    
+    
+      <category term="前端笔记" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="HTML" scheme="http://yoursite.com/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>（二）常用标记2</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/HTML/%EF%BC%88%E4%BA%8C%EF%BC%89%E5%B8%B8%E7%94%A8%E6%A0%87%E8%AE%B02/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/HTML/（二）常用标记2/</id>
+    <published>2018-11-06T02:46:48.000Z</published>
+    <updated>2018-11-06T02:58:08.108Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1、iframe和frameset&quot;&gt;&lt;a href=&quot;#1、iframe和frameset&quot; class=&quot;headerlink&quot; title=&quot;1、iframe和frameset&quot;&gt;&lt;/a&gt;1、iframe和frameset&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1）iframe嵌入一个网页;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2）超链接和iframe配合使用;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   可以用来做边界布局 东南西北中   东邪 西毒 南帝 北丐 中神通&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3）利用iframe来布局;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="前端开发" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="第一阶段" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    
+      <category term="HTML" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/HTML/"/>
+    
+    
+      <category term="前端笔记" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="HTML" scheme="http://yoursite.com/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
     <title>（一）网页结构及常用标记</title>
-    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91-%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5-HTML/%EF%BC%88%E4%B8%80%EF%BC%89%E7%BD%91%E9%A1%B5%E7%BB%93%E6%9E%84%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%A0%87%E8%AE%B0/"/>
-    <id>http://yoursite.com/学习笔记-前端开发-第一阶段-HTML/（一）网页结构及常用标记/</id>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/HTML/%EF%BC%88%E4%B8%80%EF%BC%89%E7%BD%91%E9%A1%B5%E7%BB%93%E6%9E%84%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%A0%87%E8%AE%B0/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/HTML/（一）网页结构及常用标记/</id>
     <published>2018-11-05T07:03:12.000Z</published>
-    <updated>2018-11-06T01:55:54.686Z</updated>
+    <updated>2018-11-06T02:47:33.560Z</updated>
     
     <summary type="html">
     
@@ -32,7 +90,13 @@
     
     </summary>
     
-      <category term="学习笔记 - 前端开发 - 第一阶段 - HTML" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91-%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5-HTML/"/>
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="前端开发" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="第一阶段" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    
+      <category term="HTML" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/HTML/"/>
     
     
       <category term="前端笔记" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>

@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[（三）表单和表格布局]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2F%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%2FHTML%2F%EF%BC%88%E4%B8%89%EF%BC%89%E8%A1%A8%E5%8D%95%E5%92%8C%E8%A1%A8%E6%A0%BC%E5%B8%83%E5%B1%80%2F</url>
+    <content type="text"><![CDATA[1、表单1）概念 表单是在网页上提供给用户输入信息的一组输入控件元素的集合。将用户在网页上输入的信息传输到web服务器端，目的是为了完成某种特定功能。 2）应用123456789101112131415161718192021222324252627 表单控件元素2.1）单行文本输入框 type=&quot;text&quot;2.2）密码输入框 type=&quot;password&quot;2.3）单选框 type=&quot;radio&quot;2.4）多选框 type=&quot;checkbox&quot;2.5）文件上传 type=&quot;file&quot;2.6）下拉列表 select元素内部写多个option选项2.7）文本域 textarea2.8）普通按钮 type=&quot;button&quot;2.9）提交按钮 type=&quot;submit&quot;2.10）重置按钮 type=&quot;reset&quot;2.11）以图片代替提交按钮 type=&quot;image&quot;2.12）颜色选择框 type=&quot;color&quot;2.13）进度调节 type=&quot;range&quot; 3）实例登录示例 4）form元素属性1234567 4.1）action=&quot;提交地址&quot; 指当点击提交按钮时要将此表单的数据提交到哪儿去。 4.2）method=&quot;GET&quot; get或者post 建议使用POST 4.3）enctype=&quot;multipart/form-data&quot; 以二进制方式提交数据（文件上传） 若表单内有文件上传框时，则form元素的method属性值必须为POST，enctype属性必须写，且其值必须 为multipart/form-data 。``` #### 5）input元素属性 5.1）type=&quot;&quot; 5.2）name=&quot;&quot; 取个名字 不能用中文、特殊字符 当提交表单时作为参数名称用。 注意： 当type属性值为radio或checkbox时，name属性值要保持一致，表示这些选项是同一组的。 当input元素没写name属性时，表单提交时将不提交此输入框内的数据。 5.3）value=&quot;&quot; 值 当页面刷新后会在输入框内自动填入value属性的值。 注意： 当type属性值为radio或checkbox时，value属性值必须不能重复。 5.4）placeholder=&quot;提示内容&quot; 5.5）autofocus 自动聚焦 5.6）checked 默认选中 用在单选框和多选框上。 ` 6）下拉列表项默认选中select元素要写name属性 option选项元素必须写value属性，且value属性值不能重复。 2、表单GET与POST方式提交数据的区别表单form元素若没写method属性时，默认是method=&quot;GET&quot;。 1）GET方式是明文提交，数据会直接展示在浏览器的地址栏中，而POST是隐式提交； 2）GET方式提交数据不能超过255个字符，而POST提交内容长度无限制； 3）GET方式只能以文本提交，而POST方式既能以文本方式提交，也能以二进制数据方式提交； 3、表格布局与表单混合使用]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>前端开发</category>
+        <category>第一阶段</category>
+        <category>HTML</category>
+      </categories>
+      <tags>
+        <tag>前端笔记</tag>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[（二）常用标记2]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2F%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%2FHTML%2F%EF%BC%88%E4%BA%8C%EF%BC%89%E5%B8%B8%E7%94%A8%E6%A0%87%E8%AE%B02%2F</url>
+    <content type="text"><![CDATA[1、iframe和frameset12341）iframe嵌入一个网页;2）超链接和iframe配合使用; 可以用来做边界布局 东南西北中 东邪 西毒 南帝 北丐 中神通3）利用iframe来布局; 2、表格（重要）1234567891）基本表格 &lt;table&gt; &lt;tr&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; 注意：表格内的内容必须写在td标签内。 12345678910111213141516172）table、tr、td的常用属性 table 的常用属性： width=&quot;宽度&quot; 宽度可以填百分比 500px border=&quot;1&quot; 默认值是0 1表示有边框 0表示无边框 cellspacing=&quot;0&quot; 默认值是1 1表示单元格之间有间距 0表示无间距 align=&quot;center&quot; 默认值是left left表示居左 center表示居中 right表示居右 bordercolor=&quot;orange&quot; 表示边框颜色 属性值可以填颜色英文单词 rgb(100,20,200) #6位十六进制数字 bgcolor=&quot;orange&quot; 表示表格的背景颜色 tr 的常用属性： height=&quot;40px&quot; 指定行高 align=&quot;center&quot; 默认值是left left表示居左 center表示居中 right表示居右 bgcolor=&quot;&quot; td 的常用属性： width=&quot;50px&quot; align=&quot;center&quot; 默认值是left left表示居左 center表示居中 right表示居右 123）合并列 从某个单元格位置跨列向右合并单元格 colspan=&quot;整数&quot; 124）合并行 从某个单元格位置跨行向下合并单元格 rowspan=&quot;整数&quot; 3、列表list123 1）无序列表unordered list ul2）有序列表ordered list ol3）定义列表define list dl 4、所有标签元素分类123456789 1）写法分类 围堵元素 自开自闭元素 2）展示效果（是否换行） 字符级元素 a b i em span label font strong small big address img 块级元素 div p table tr td ul ol dl li]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>前端开发</category>
+        <category>第一阶段</category>
+        <category>HTML</category>
+      </categories>
+      <tags>
+        <tag>前端笔记</tag>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[（一）网页结构及常用标记]]></title>
-    <url>%2F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91-%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5-HTML%2F%EF%BC%88%E4%B8%80%EF%BC%89%E7%BD%91%E9%A1%B5%E7%BB%93%E6%9E%84%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%A0%87%E8%AE%B0%2F</url>
+    <url>%2F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2F%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%2FHTML%2F%EF%BC%88%E4%B8%80%EF%BC%89%E7%BD%91%E9%A1%B5%E7%BB%93%E6%9E%84%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%A0%87%E8%AE%B0%2F</url>
     <content type="text"><![CDATA[1、web应用程序及其组成部分网站分类 1、从访问权限：外网访问 百度、淘宝、京东 局域网访问 大学校园网 教学管理系统 2、从业务功能：电子商务 OA办公自动化系统 CRM客户关系管理系统 web应用程序的组成部分： 服务器 浏览器 网页 HTTP协议（网络） 服务器 Apache Server httpd ---&gt; PHP语言 Apache Tomcat ---&gt; Java语言 访问https://www.baidu.com 在浏览器中通过点击超链接或点击某些按钮，将一些信息通过HTTP协议发送到服务器上，我们称这个发送过程为请求； 服务器收到本次请求，它将对本次请求进行专门的处理，然后将处理结果通过网络又发送给浏览器，我们称这个过程叫响应。 2、网页及其组成部分、分类网页其实就是一个文本文件，它必须以.html或.htm后后缀名称。 java语言 .jsp php语言中 .php .asp 访问速度快 漂亮精美绚丽 方便实用 hao123.com ---&gt;访问量高 被360公司收购了 1）组成部分 内容 结构 样式 CSS 行为 JavaScript jQuery 2）网页的基本结构 &lt;html&gt; &lt;head&gt;&lt;/head&gt; &lt;body&gt; 内容 &lt;/body&gt; &lt;/html&gt; 3）分类 静态网页：内容不随访问者、访问时间改变而改变 动态网页：内容随访问者、访问时间改变而改变 3、HTML标记语言超文本标记语言,HyperText Markup Language 标记(元素) &lt;标记名称&gt;&lt;/标记名称&gt; 围堵元素 &lt;标记名称 /&gt; 自开自闭元素 4、HTML文件的后缀名5、HTML代码书写规范1）代码格式：被包含的代码要空4格 2）围堵元素必须有开头，也必须有结尾 3）自开自闭元素，最后面有一个斜杠 4）标记的属性值一定要用双引号或单引号包起来 5）属性与另一个属性之间用空格隔开 6、常用的HTML标记标题h1 h2 h3 h4 h5 h6 br 换行 hr 横线 paragraph 段落p division 分割，分开的div 文本标记 span 跨域 横跨 b i em font label strong address 7、特殊字符123456&lt; &amp;lt;&gt; &amp;gt;空格 &amp;nbsp; &amp; &amp;amp;版权 &amp;copy;关闭 &amp;times; 8、图像图片文件的常见格式： .jpg .jpeg .png .bmp .ico .gif &lt;img src=&quot;2015-06-24五杀.jpg&quot; /&gt; 注意src属性值为当前html文件与图片文件的相对路径或图片文件的绝对路径 9、超链接(重要)作用：用户点击后跳转新页面 &lt;a href=&quot;链接地址&quot; target=&quot;_blank&quot;&gt;链接内容&lt;/a&gt; href属性值 表示该超链接被点击后页面将要跳到哪儿去 target=&quot;_blank&quot; 表示新开一个标签页来展示href属性值内的网页]]></content>
       <categories>
-        <category>学习笔记 - 前端开发 - 第一阶段 - HTML</category>
+        <category>学习笔记</category>
+        <category>前端开发</category>
+        <category>第一阶段</category>
+        <category>HTML</category>
       </categories>
       <tags>
         <tag>前端笔记</tag>
