@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-06T02:58:08.113Z</updated>
+  <updated>2018-11-06T03:16:51.867Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>（四）CSS基础样式</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E5%9B%9B%EF%BC%89CSS%E5%9F%BA%E7%A1%80%E6%A0%B7%E5%BC%8F/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（四）CSS基础样式/</id>
+    <published>2018-11-06T03:03:12.000Z</published>
+    <updated>2018-11-06T03:16:51.867Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1、CSS简介&quot;&gt;&lt;a href=&quot;#1、CSS简介&quot; class=&quot;headerlink&quot; title=&quot;1、CSS简介&quot;&gt;&lt;/a&gt;1、CSS简介&lt;/h3&gt;&lt;p&gt;Cascading Style Sheets&lt;br&gt;它用于定义HTML元素的显示形式，是一种格式化网页内容的技术。CSS现在已经被大多数浏览器所支持，成为网页设计者必须掌握的技术之一。&lt;/p&gt;
+&lt;p&gt;W3C自1996年12月发布第一个CSS正式推荐版CSS1.0以来，一直在对CSS标准进行修订、升级。1999年1月，CSS2.0正式推荐版发布，增加了对其它媒体（打印机、视觉设备）、可下载字体、元素定位和表格的支持。最新版本的CSS标准CSS 3.0正在开发中使用。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="前端开发" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="第一阶段" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/"/>
+    
+    
+      <category term="前端笔记" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/tags/CSS/"/>
+    
+  </entry>
   
   <entry>
     <title>（三）表单和表格布局</title>

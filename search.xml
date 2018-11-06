@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[（四）CSS基础样式]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2F%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%2FCSS%2F%EF%BC%88%E5%9B%9B%EF%BC%89CSS%E5%9F%BA%E7%A1%80%E6%A0%B7%E5%BC%8F%2F</url>
+    <content type="text"><![CDATA[1、CSS简介Cascading Style Sheets它用于定义HTML元素的显示形式，是一种格式化网页内容的技术。CSS现在已经被大多数浏览器所支持，成为网页设计者必须掌握的技术之一。 W3C自1996年12月发布第一个CSS正式推荐版CSS1.0以来，一直在对CSS标准进行修订、升级。1999年1月，CSS2.0正式推荐版发布，增加了对其它媒体（打印机、视觉设备）、可下载字体、元素定位和表格的支持。最新版本的CSS标准CSS 3.0正在开发中使用。 2、使用CSS样式的优点1）提高页面浏览速度 2）缩短改版时间，降低维护费用 3）强大的字体控制和排版能力 4）可以一次设计，随处发布 5）更好的控制页面布局 6）实现表现和结构、内容相分离 7）更方便搜索引擎的搜索 3、HTML引入CSS样式的方式1234 1）内联 直接在需要添加样式的标签上写style属性即可。 2）内嵌 在head内书写style元素，其中再添加样式。 3）外联 在当前html文件外部创建一个css文件，其中书写样式，然后在html的head内部使用link标签将其引入。&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;css/test.css&quot; /&gt; 4、理解样式表的层叠效果当多处添加样式修饰同一个标签元素时，会出现以下两种现象： 覆盖：样式属性名称相同时，则依据就近原则，离当前标签元素越近的样式将会覆盖离得越远的样式。 叠加：样式属性名称不同时，则会叠加效果。 5、CSS样式语法规则键值对 样式属性名称: 样式属性值； 6、选择器(重要)1）概念：选择器是指通过某种特定的方式查找到需要添加样式的那些目标元素的语法。 2）什么时候用选择器？内嵌样式表和外联样式表中才需要使用选择器，而内联样式不需要。 3）常用的选择器3.1）元素选择器12345678910111213141516171819202122232425262728293031 直接用元素名称作为选择器 将html页面内的所有当前名称的元素全部选中后添加样式。 span&#123;&#125; div&#123;&#125; a&#123;&#125; b&#123;&#125; body&#123;&#125;``` ##### 3.2）ID选择器 在需要添加样式的目标元素上添加id属性，然后在内嵌样式表和外联样式表中使用如下语法： #id属性值&#123;&#125; 注意html页面内所有元素的id属性值不能重复。 ##### 3.3）类选择器 class选择器 在需要添加样式的目标元素上添加class属性，然后在内嵌样式表和外联样式表中使用如下语法： .class属性值&#123;&#125; 注意： 元素选择器和class选择器都可能会选择0到多个目标元素，而id选择器只能选中0到1个目标元素。##### 3.4）包含选择器 父级元素的选择器 后代元素的选择器&#123;&#125; 包含选择器可以跨级。 ##### 3.5）子元素选择器 父级元素的选择器&gt;子元素的选择器&#123;&#125; 子元素选择器不能跨级. ##### 3.6）伪类选择器 各种基础选择器:伪类选择器{} 例如 a:hover{} hover是指鼠标移到目标区域后添加样式，鼠标移开时删除样式 :first :first-child :last :last-child :nth-child :checked :disabled :empty :focus ` 3.7）通配符选择器 表示选中当前html页面内所有标签元素*{} 7、标识符命名规范1）以字母开头，后续字符可以是字母、数字、下划线； 2）不能包含空格、中文以及其他各种特殊字符； 3）不能使用开发语言中的关键字； 4）见名知意； 5）驼峰命名；]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>前端开发</category>
+        <category>第一阶段</category>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>前端笔记</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[（三）表单和表格布局]]></title>
     <url>%2F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2F%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%2F%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%2FHTML%2F%EF%BC%88%E4%B8%89%EF%BC%89%E8%A1%A8%E5%8D%95%E5%92%8C%E8%A1%A8%E6%A0%BC%E5%B8%83%E5%B1%80%2F</url>
     <content type="text"><![CDATA[1、表单1）概念 表单是在网页上提供给用户输入信息的一组输入控件元素的集合。将用户在网页上输入的信息传输到web服务器端，目的是为了完成某种特定功能。 2）应用123456789101112131415161718192021222324252627 表单控件元素2.1）单行文本输入框 type=&quot;text&quot;2.2）密码输入框 type=&quot;password&quot;2.3）单选框 type=&quot;radio&quot;2.4）多选框 type=&quot;checkbox&quot;2.5）文件上传 type=&quot;file&quot;2.6）下拉列表 select元素内部写多个option选项2.7）文本域 textarea2.8）普通按钮 type=&quot;button&quot;2.9）提交按钮 type=&quot;submit&quot;2.10）重置按钮 type=&quot;reset&quot;2.11）以图片代替提交按钮 type=&quot;image&quot;2.12）颜色选择框 type=&quot;color&quot;2.13）进度调节 type=&quot;range&quot; 3）实例登录示例 4）form元素属性1234567 4.1）action=&quot;提交地址&quot; 指当点击提交按钮时要将此表单的数据提交到哪儿去。 4.2）method=&quot;GET&quot; get或者post 建议使用POST 4.3）enctype=&quot;multipart/form-data&quot; 以二进制方式提交数据（文件上传） 若表单内有文件上传框时，则form元素的method属性值必须为POST，enctype属性必须写，且其值必须 为multipart/form-data 。``` #### 5）input元素属性 5.1）type=&quot;&quot; 5.2）name=&quot;&quot; 取个名字 不能用中文、特殊字符 当提交表单时作为参数名称用。 注意： 当type属性值为radio或checkbox时，name属性值要保持一致，表示这些选项是同一组的。 当input元素没写name属性时，表单提交时将不提交此输入框内的数据。 5.3）value=&quot;&quot; 值 当页面刷新后会在输入框内自动填入value属性的值。 注意： 当type属性值为radio或checkbox时，value属性值必须不能重复。 5.4）placeholder=&quot;提示内容&quot; 5.5）autofocus 自动聚焦 5.6）checked 默认选中 用在单选框和多选框上。 ` 6）下拉列表项默认选中select元素要写name属性 option选项元素必须写value属性，且value属性值不能重复。 2、表单GET与POST方式提交数据的区别表单form元素若没写method属性时，默认是method=&quot;GET&quot;。 1）GET方式是明文提交，数据会直接展示在浏览器的地址栏中，而POST是隐式提交； 2）GET方式提交数据不能超过255个字符，而POST提交内容长度无限制； 3）GET方式只能以文本提交，而POST方式既能以文本方式提交，也能以二进制数据方式提交； 3、表格布局与表单混合使用]]></content>
