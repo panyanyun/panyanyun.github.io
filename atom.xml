@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-06T03:16:51.867Z</updated>
+  <updated>2018-11-06T06:24:50.591Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,164 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>（九）浏览器兼容问题&amp;自定义字体&amp;媒体检测</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E4%B9%9D%EF%BC%89%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98&amp;%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93&amp;%E5%AA%92%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（九）浏览器兼容问题&amp;自定义字体&amp;媒体检测/</id>
+    <published>2018-11-06T06:24:12.000Z</published>
+    <updated>2018-11-06T06:24:50.591Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1、CSS样式的浏览器兼容问题解决&quot;&gt;&lt;a href=&quot;#1、CSS样式的浏览器兼容问题解决&quot; class=&quot;headerlink&quot; title=&quot;1、CSS样式的浏览器兼容问题解决&quot;&gt;&lt;/a&gt;1、CSS样式的浏览器兼容问题解决&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;CSS样式属性名称前缀：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	-moz- 支持火狐浏览器&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	-webkit- 支持谷歌、Safari浏览器&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	-o-   支持Opera&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	-ms-  支持IE浏览器&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	-icab-&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	-khtml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    www.webjx.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="前端开发" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="第一阶段" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/"/>
+    
+    
+      <category term="前端笔记" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>（八）CSS优先级</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E5%85%AB%EF%BC%89CSS%E4%BC%98%E5%85%88%E7%BA%A7/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（八）CSS优先级/</id>
+    <published>2018-11-06T06:20:12.000Z</published>
+    <updated>2018-11-06T06:20:37.997Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1、CSS选择器优先级&quot;&gt;&lt;a href=&quot;#1、CSS选择器优先级&quot; class=&quot;headerlink&quot; title=&quot;1、CSS选择器优先级&quot;&gt;&lt;/a&gt;1、CSS选择器优先级&lt;/h4&gt;&lt;p&gt;浏览器是通过判断CSS优先级，来决定到底哪些属性值是与元素最为相关的，从而作用到该元素上。&lt;/p&gt;
+&lt;p&gt;CSS选择器的合理组成规则决定了优先级，我们也常常用选择器优先级来合理控制元素达到我们理想的显示状态，下面我们来具体了解下CSS选择器&lt;br&gt;    优先级及权重。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="前端开发" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="第一阶段" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/"/>
+    
+    
+      <category term="前端笔记" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>（七）浮动和定位</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E4%B8%83%EF%BC%89%E6%B5%AE%E5%8A%A8%E5%92%8C%E5%AE%9A%E4%BD%8D/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（七）浮动和定位/</id>
+    <published>2018-11-06T06:03:12.000Z</published>
+    <updated>2018-11-06T06:12:57.498Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1、盒模型类别&quot;&gt;&lt;a href=&quot;#1、盒模型类别&quot; class=&quot;headerlink&quot; title=&quot;1、盒模型类别&quot;&gt;&lt;/a&gt;1、盒模型类别&lt;/h4&gt;&lt;p&gt;box-sizing:content-box;(默认)&lt;/p&gt;
+&lt;p&gt;box-sizing:border-box;（怪异盒子）&lt;/p&gt;
+&lt;p&gt;二者的区别：&lt;/p&gt;
+&lt;p&gt;content-box 表示目标元素是一个标准盒模型，也就是说它的宽度计算公式为：边框宽度+自身宽度+左右padding值；&lt;/p&gt;
+&lt;p&gt;border-box  表示目标元素是一个非标准盒模型，也就是说它的宽度与左右padding值无关，高度与上下padding值无关；&lt;br&gt;
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="前端开发" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="第一阶段" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/"/>
+    
+    
+      <category term="前端笔记" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>（五）常见CSS样式及取值</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E4%BA%94%EF%BC%89%E5%B8%B8%E8%A7%81CSS%E6%A0%B7%E5%BC%8F%E5%8F%8A%E5%8F%96%E5%80%BC/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（五）常见CSS样式及取值/</id>
+    <published>2018-11-06T05:03:12.000Z</published>
+    <updated>2018-11-06T06:14:34.934Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1、属性筛选选择器&quot;&gt;&lt;a href=&quot;#1、属性筛选选择器&quot; class=&quot;headerlink&quot; title=&quot;1、属性筛选选择器&quot;&gt;&lt;/a&gt;1、属性筛选选择器&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;选择器[属性=&amp;quot;值&amp;quot;]{}
+
+选择器,选择器{}
+
+选择:nth-child(xn+y){}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;2、文本&quot;&gt;&lt;a href=&quot;#2、文本&quot; class=&quot;headerlink&quot; title=&quot;2、文本&quot;&gt;&lt;/a&gt;2、文本&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;1）文本内容对齐方式
+    text-align: left(默认)/center/right;
+2）文本内容溢出处理
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="前端开发" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="第一阶段" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/"/>
+    
+    
+      <category term="前端笔记" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>（六）盒模型（div+css布局）</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E5%85%AD%EF%BC%89%E7%9B%92%E6%A8%A1%E5%9E%8B%EF%BC%88div+css%E5%B8%83%E5%B1%80%EF%BC%89/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（六）盒模型（div+css布局）/</id>
+    <published>2018-11-06T05:03:12.000Z</published>
+    <updated>2018-11-06T06:14:01.370Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1、理解盒模型&quot;&gt;&lt;a href=&quot;#1、理解盒模型&quot; class=&quot;headerlink&quot; title=&quot;1、理解盒模型&quot;&gt;&lt;/a&gt;1、理解盒模型&lt;/h3&gt;&lt;h4 id=&quot;1）边框-border&quot;&gt;&lt;a href=&quot;#1）边框-border&quot; class=&quot;headerlink&quot; title=&quot;1）边框 border&quot;&gt;&lt;/a&gt;1）边框 border&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;   border-top-width&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;border-top-style&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;border-top-color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;合并后为 border-top: 边框宽度 边框形式 边框颜色;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="前端开发" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="第一阶段" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/"/>
+    
+    
+      <category term="前端笔记" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>（四）CSS基础样式</title>
     <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E5%9B%9B%EF%BC%89CSS%E5%9F%BA%E7%A1%80%E6%A0%B7%E5%BC%8F/"/>
     <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（四）CSS基础样式/</id>
     <published>2018-11-06T03:03:12.000Z</published>
-    <updated>2018-11-06T03:16:51.867Z</updated>
+    <updated>2018-11-06T03:26:16.507Z</updated>
     
     <summary type="html">
     

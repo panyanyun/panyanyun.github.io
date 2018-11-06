@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="pyy的宅基地">
 <meta property="og:description" content="1、CSS简介Cascading Style Sheets它用于定义HTML元素的显示形式，是一种格式化网页内容的技术。CSS现在已经被大多数浏览器所支持，成为网页设计者必须掌握的技术之一。 W3C自1996年12月发布第一个CSS正式推荐版CSS1.0以来，一直在对CSS标准进行修订、升级。1999年1月，CSS2.0正式推荐版发布，增加了对其它媒体（打印机、视觉设备）、可下载字体、元素定位和表">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-06T03:16:51.867Z">
+<meta property="og:updated_time" content="2018-11-06T03:26:16.507Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="（四）CSS基础样式">
 <meta name="twitter:description" content="1、CSS简介Cascading Style Sheets它用于定义HTML元素的显示形式，是一种格式化网页内容的技术。CSS现在已经被大多数浏览器所支持，成为网页设计者必须掌握的技术之一。 W3C自1996年12月发布第一个CSS正式推荐版CSS1.0以来，一直在对CSS标准进行修订、升级。1999年1月，CSS2.0正式推荐版发布，增加了对其它媒体（打印机、视觉设备）、可下载字体、元素定位和表">
@@ -358,7 +358,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-11-06T11:16:51+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-06T11:26:16+08:00">
                 2018-11-06
               </time>
             
@@ -451,7 +451,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  994
+                  975
                 </span>
               
 
@@ -504,19 +504,26 @@
 </code></pre><h3 id="5、CSS样式语法规则"><a href="#5、CSS样式语法规则" class="headerlink" title="5、CSS样式语法规则"></a>5、CSS样式语法规则</h3><pre><code>键值对   样式属性名称: 样式属性值；
 </code></pre><h3 id="6、选择器-重要"><a href="#6、选择器-重要" class="headerlink" title="6、选择器(重要)"></a>6、选择器(重要)</h3><h4 id="1）概念："><a href="#1）概念：" class="headerlink" title="1）概念："></a>1）概念：</h4><p>选择器是指通过某种特定的方式查找到需要添加样式的那些目标元素的语法。</p>
 <h4 id="2）什么时候用选择器？"><a href="#2）什么时候用选择器？" class="headerlink" title="2）什么时候用选择器？"></a>2）什么时候用选择器？</h4><pre><code>内嵌样式表和外联样式表中才需要使用选择器，而内联样式不需要。
-</code></pre><h4 id="3）常用的选择器"><a href="#3）常用的选择器" class="headerlink" title="3）常用的选择器"></a>3）常用的选择器</h4><h5 id="3-1）元素选择器"><a href="#3-1）元素选择器" class="headerlink" title="3.1）元素选择器"></a>3.1）元素选择器</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">	    直接用元素名称作为选择器 将html页面内的所有当前名称的元素全部选中后添加样式。</span><br><span class="line">	    span&#123;&#125;</span><br><span class="line">	    div&#123;&#125;</span><br><span class="line">	    a&#123;&#125;</span><br><span class="line">	    b&#123;&#125;</span><br><span class="line">	    body&#123;&#125;</span><br><span class="line">```	    </span><br><span class="line">##### 3.2）ID选择器</span><br><span class="line"></span><br><span class="line">	    在需要添加样式的目标元素上添加id属性，然后在内嵌样式表和外联样式表中使用如下语法：</span><br><span class="line">	    #id属性值&#123;&#125;</span><br><span class="line">	    注意html页面内所有元素的id属性值不能重复。</span><br><span class="line">	    </span><br><span class="line">##### 3.3）类选择器 class选择器</span><br><span class="line"></span><br><span class="line">	    在需要添加样式的目标元素上添加class属性，然后在内嵌样式表和外联样式表中使用如下语法：</span><br><span class="line">	    .class属性值&#123;&#125;</span><br><span class="line">	注意：</span><br><span class="line">	    元素选择器和class选择器都可能会选择0到多个目标元素，而id选择器只能选中0到1个目标元素。</span><br><span class="line"></span><br><span class="line">##### 3.4）包含选择器</span><br><span class="line"></span><br><span class="line">	    父级元素的选择器 后代元素的选择器&#123;&#125;</span><br><span class="line">	    包含选择器可以跨级。</span><br><span class="line">	    </span><br><span class="line">##### 3.5）子元素选择器</span><br><span class="line"></span><br><span class="line">	    父级元素的选择器&gt;子元素的选择器&#123;&#125;</span><br><span class="line">	    子元素选择器不能跨级.</span><br><span class="line">	    </span><br><span class="line">##### 3.6）伪类选择器</span><br></pre></td></tr></table></figure>
-<pre><code>各种基础选择器:伪类选择器{}
+</code></pre><h4 id="3）常用的选择器"><a href="#3）常用的选择器" class="headerlink" title="3）常用的选择器"></a>3）常用的选择器</h4><h5 id="3-1）元素选择器"><a href="#3-1）元素选择器" class="headerlink" title="3.1）元素选择器"></a>3.1）元素选择器</h5><pre><code>直接用元素名称作为选择器 将html页面内的所有当前名称的元素全部选中后添加样式。
+span{}
+div{}
+a{}
+b{}
+body{}
+</code></pre><h5 id="3-2）ID选择器"><a href="#3-2）ID选择器" class="headerlink" title="3.2）ID选择器"></a>3.2）ID选择器</h5><pre><code>在需要添加样式的目标元素上添加id属性，然后在内嵌样式表和外联样式表中使用如下语法：
+#id属性值{}
+注意html页面内所有元素的id属性值不能重复。
+</code></pre><h5 id="3-3）类选择器-class选择器"><a href="#3-3）类选择器-class选择器" class="headerlink" title="3.3）类选择器 class选择器"></a>3.3）类选择器 class选择器</h5><pre><code>    在需要添加样式的目标元素上添加class属性，然后在内嵌样式表和外联样式表中使用如下语法：
+    .class属性值{}
+注意：
+    元素选择器和class选择器都可能会选择0到多个目标元素，而id选择器只能选中0到1个目标元素。
+</code></pre><h5 id="3-4）包含选择器"><a href="#3-4）包含选择器" class="headerlink" title="3.4）包含选择器"></a>3.4）包含选择器</h5><pre><code>父级元素的选择器 后代元素的选择器{}
+包含选择器可以跨级。
+</code></pre><h5 id="3-5）子元素选择器"><a href="#3-5）子元素选择器" class="headerlink" title="3.5）子元素选择器"></a>3.5）子元素选择器</h5><pre><code>父级元素的选择器&gt;子元素的选择器{}
+子元素选择器不能跨级.
+</code></pre><h5 id="3-6）伪类选择器"><a href="#3-6）伪类选择器" class="headerlink" title="3.6）伪类选择器"></a>3.6）伪类选择器</h5><pre><code>各种基础选择器:伪类选择器{}
 例如  a:hover{}  hover是指鼠标移到目标区域后添加样式，鼠标移开时删除样式
-:first
-:first-child
-:last
-:last-child
-:nth-child
-:checked
-:disabled
-:empty
-:focus
-</code></pre><p><code>`</code>        </p>
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">:first</span><br><span class="line">:first-child</span><br><span class="line">:last</span><br><span class="line">:last-child</span><br><span class="line">:nth-child</span><br><span class="line">:checked</span><br><span class="line">:disabled</span><br><span class="line">:empty</span><br><span class="line">:focus</span><br></pre></td></tr></table></figure>
 <h5 id="3-7）通配符选择器-表示选中当前html页面内所有标签元素"><a href="#3-7）通配符选择器-表示选中当前html页面内所有标签元素" class="headerlink" title="3.7）通配符选择器  表示选中当前html页面内所有标签元素"></a>3.7）通配符选择器  表示选中当前html页面内所有标签元素</h5><pre><code>*{}
 </code></pre><h3 id="7、标识符命名规范"><a href="#7、标识符命名规范" class="headerlink" title="7、标识符命名规范"></a>7、标识符命名规范</h3><pre><code>1）以字母开头，后续字符可以是字母、数字、下划线；
 2）不能包含空格、中文以及其他各种特殊字符；
@@ -543,7 +550,7 @@
   <p><span>本文标题:</span>（四）CSS基础样式</p>
   <p><span>文章作者:</span>panyanyun</p>
   <p><span>发布时间:</span>2018年11月06日 - 11:03:12</p>
-  <p><span>最后更新:</span>2018年11月06日 - 11:16:51</p>
+  <p><span>最后更新:</span>2018年11月06日 - 11:26:16</p>
   <p><span>原始链接:</span><a href="/学习笔记/前端开发/第一阶段/CSS/（四）CSS基础样式/" title="（四）CSS基础样式">http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（四）CSS基础样式/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（四）CSS基础样式/" aria-label="复制成功！"></i></span>
   </p>
@@ -630,6 +637,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/学习笔记/前端开发/第一阶段/CSS/（六）盒模型（div+css布局）/" rel="prev" title="（六）盒模型（div+css布局）">
+                （六）盒模型（div+css布局） <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -707,7 +718,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -799,7 +810,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、CSS简介"><span class="nav-text">1、CSS简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、使用CSS样式的优点"><span class="nav-text">2、使用CSS样式的优点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、HTML引入CSS样式的方式"><span class="nav-text">3、HTML引入CSS样式的方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、理解样式表的层叠效果"><span class="nav-text">4、理解样式表的层叠效果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5、CSS样式语法规则"><span class="nav-text">5、CSS样式语法规则</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6、选择器-重要"><span class="nav-text">6、选择器(重要)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）概念："><span class="nav-text">1）概念：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）什么时候用选择器？"><span class="nav-text">2）什么时候用选择器？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）常用的选择器"><span class="nav-text">3）常用的选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#3-1）元素选择器"><span class="nav-text">3.1）元素选择器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-7）通配符选择器-表示选中当前html页面内所有标签元素"><span class="nav-text">3.7）通配符选择器  表示选中当前html页面内所有标签元素</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7、标识符命名规范"><span class="nav-text">7、标识符命名规范</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、CSS简介"><span class="nav-text">1、CSS简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、使用CSS样式的优点"><span class="nav-text">2、使用CSS样式的优点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、HTML引入CSS样式的方式"><span class="nav-text">3、HTML引入CSS样式的方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、理解样式表的层叠效果"><span class="nav-text">4、理解样式表的层叠效果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5、CSS样式语法规则"><span class="nav-text">5、CSS样式语法规则</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6、选择器-重要"><span class="nav-text">6、选择器(重要)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）概念："><span class="nav-text">1）概念：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）什么时候用选择器？"><span class="nav-text">2）什么时候用选择器？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）常用的选择器"><span class="nav-text">3）常用的选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#3-1）元素选择器"><span class="nav-text">3.1）元素选择器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-2）ID选择器"><span class="nav-text">3.2）ID选择器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-3）类选择器-class选择器"><span class="nav-text">3.3）类选择器 class选择器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-4）包含选择器"><span class="nav-text">3.4）包含选择器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-5）子元素选择器"><span class="nav-text">3.5）子元素选择器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-6）伪类选择器"><span class="nav-text">3.6）伪类选择器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-7）通配符选择器-表示选中当前html页面内所有标签元素"><span class="nav-text">3.7）通配符选择器  表示选中当前html页面内所有标签元素</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7、标识符命名规范"><span class="nav-text">7、标识符命名规范</span></a></li></ol></div>
             
 
           </div>
