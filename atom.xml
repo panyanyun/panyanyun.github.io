@@ -106,23 +106,15 @@
   </entry>
   
   <entry>
-    <title>（五）常见CSS样式及取值</title>
-    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E4%BA%94%EF%BC%89%E5%B8%B8%E8%A7%81CSS%E6%A0%B7%E5%BC%8F%E5%8F%8A%E5%8F%96%E5%80%BC/"/>
-    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（五）常见CSS样式及取值/</id>
+    <title>（六）盒模型（div+css布局）</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E5%85%AD%EF%BC%89%E7%9B%92%E6%A8%A1%E5%9E%8B%EF%BC%88div+css%E5%B8%83%E5%B1%80%EF%BC%89/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（六）盒模型（div+css布局）/</id>
     <published>2018-11-06T05:03:12.000Z</published>
-    <updated>2018-11-06T06:14:34.934Z</updated>
+    <updated>2018-11-06T06:14:01.370Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1、属性筛选选择器&quot;&gt;&lt;a href=&quot;#1、属性筛选选择器&quot; class=&quot;headerlink&quot; title=&quot;1、属性筛选选择器&quot;&gt;&lt;/a&gt;1、属性筛选选择器&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;选择器[属性=&amp;quot;值&amp;quot;]{}
-
-选择器,选择器{}
-
-选择:nth-child(xn+y){}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;2、文本&quot;&gt;&lt;a href=&quot;#2、文本&quot; class=&quot;headerlink&quot; title=&quot;2、文本&quot;&gt;&lt;/a&gt;2、文本&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;1）文本内容对齐方式
-    text-align: left(默认)/center/right;
-2）文本内容溢出处理
-&lt;/code&gt;&lt;/pre&gt;
+      &lt;h3 id=&quot;1、理解盒模型&quot;&gt;&lt;a href=&quot;#1、理解盒模型&quot; class=&quot;headerlink&quot; title=&quot;1、理解盒模型&quot;&gt;&lt;/a&gt;1、理解盒模型&lt;/h3&gt;&lt;h4 id=&quot;1）边框-border&quot;&gt;&lt;a href=&quot;#1）边框-border&quot; class=&quot;headerlink&quot; title=&quot;1）边框 border&quot;&gt;&lt;/a&gt;1）边框 border&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;   border-top-width&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;border-top-style&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;border-top-color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;合并后为 border-top: 边框宽度 边框形式 边框颜色;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -142,15 +134,23 @@
   </entry>
   
   <entry>
-    <title>（六）盒模型（div+css布局）</title>
-    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E5%85%AD%EF%BC%89%E7%9B%92%E6%A8%A1%E5%9E%8B%EF%BC%88div+css%E5%B8%83%E5%B1%80%EF%BC%89/"/>
-    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（六）盒模型（div+css布局）/</id>
+    <title>（五）常见CSS样式及取值</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E4%BA%94%EF%BC%89%E5%B8%B8%E8%A7%81CSS%E6%A0%B7%E5%BC%8F%E5%8F%8A%E5%8F%96%E5%80%BC/"/>
+    <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（五）常见CSS样式及取值/</id>
     <published>2018-11-06T05:03:12.000Z</published>
-    <updated>2018-11-06T06:14:01.370Z</updated>
+    <updated>2018-11-06T06:14:34.934Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1、理解盒模型&quot;&gt;&lt;a href=&quot;#1、理解盒模型&quot; class=&quot;headerlink&quot; title=&quot;1、理解盒模型&quot;&gt;&lt;/a&gt;1、理解盒模型&lt;/h3&gt;&lt;h4 id=&quot;1）边框-border&quot;&gt;&lt;a href=&quot;#1）边框-border&quot; class=&quot;headerlink&quot; title=&quot;1）边框 border&quot;&gt;&lt;/a&gt;1）边框 border&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;   border-top-width&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;border-top-style&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;border-top-color&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;合并后为 border-top: 边框宽度 边框形式 边框颜色;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      &lt;h3 id=&quot;1、属性筛选选择器&quot;&gt;&lt;a href=&quot;#1、属性筛选选择器&quot; class=&quot;headerlink&quot; title=&quot;1、属性筛选选择器&quot;&gt;&lt;/a&gt;1、属性筛选选择器&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;选择器[属性=&amp;quot;值&amp;quot;]{}
+
+选择器,选择器{}
+
+选择:nth-child(xn+y){}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;2、文本&quot;&gt;&lt;a href=&quot;#2、文本&quot; class=&quot;headerlink&quot; title=&quot;2、文本&quot;&gt;&lt;/a&gt;2、文本&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;1）文本内容对齐方式
+    text-align: left(默认)/center/right;
+2）文本内容溢出处理
+&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
