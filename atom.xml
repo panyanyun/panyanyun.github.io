@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-23T07:27:21.143Z</updated>
+  <updated>2019-12-23T07:48:24.116Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,11 @@
     <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/markdown/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%EF%BC%88%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%EF%BC%89/"/>
     <id>http://yoursite.com/学习笔记/markdown/markdown基本语法（快速入门）/</id>
     <published>2019-12-23T07:15:25.000Z</published>
-    <updated>2019-12-23T07:27:21.143Z</updated>
+    <updated>2019-12-23T07:48:24.116Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;ul&gt;
+      &lt;ul&gt;
 &lt;li&gt;1 基本操作&lt;ul&gt;
 &lt;li&gt;1.1 标题&lt;/li&gt;
 &lt;li&gt;1.2 加粗、斜体、高亮&lt;/li&gt;
@@ -37,9 +33,14 @@
 &lt;li&gt;1.4 代码引用&lt;/li&gt;
 &lt;li&gt;1.5 插入链接&lt;/li&gt;
 &lt;li&gt;1.6 插入图片&lt;/li&gt;
-&lt;li&gt;1.7
-        
-      
+&lt;li&gt;1.7 有序列表、无序列表&lt;/li&gt;
+&lt;li&gt;1.8 分割线&lt;/li&gt;
+&lt;li&gt;1.9 表格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 其他操作&lt;ul&gt;
+&lt;li&gt;2.1 特殊字符自动转换&lt;/li&gt;
+&lt;li&gt;2.2 数学公式
     
     </summary>
     
@@ -55,7 +56,7 @@
     <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5/CSS/%EF%BC%88%E4%B9%9D%EF%BC%89%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98&amp;%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93&amp;%E5%AA%92%E4%BD%93%E6%A3%80%E6%B5%8B/"/>
     <id>http://yoursite.com/学习笔记/前端开发/第一阶段/CSS/（九）浏览器兼容问题&amp;自定义字体&amp;媒体检测/</id>
     <published>2018-11-06T06:24:12.000Z</published>
-    <updated>2018-11-06T06:24:50.591Z</updated>
+    <updated>2019-12-23T07:38:22.133Z</updated>
     
     <summary type="html">
     
