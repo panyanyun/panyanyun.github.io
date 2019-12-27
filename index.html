@@ -360,7 +360,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-12-27T14:09:43+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-12-27T14:40:55+08:00">
                 2019-12-27
               </time>
             
@@ -904,9 +904,30 @@
 </li>
 </ul>
 </li>
-<li><p>属性<br>|属性        |值    |描述|<br>|–|–|–|<br>|cite        |URL|规定一个文档的 URL，该文档解释了文本被插入的原因。    |<br>|datetime    |YYYY-MM-DDThh:mm:ssTZD    |规定文本被插入的日期和时间。|</p>
+<li><p>属性</p>
 </li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cite</td>
+<td>URL</td>
+<td>规定一个文档的 URL，该文档解释了文本被插入的原因</td>
+</tr>
+<tr>
+<td>datetime</td>
+<td>YYYY-MM-DDThh:mm:ssTZD</td>
+<td>规定文本被插入的日期和时间</td>
+</tr>
+</tbody>
+</table>
 <h2 id="被删除文本-lt-del-gt-lt-del-gt"><a href="#被删除文本-lt-del-gt-lt-del-gt" class="headerlink" title="被删除文本 &lt;del&gt;&lt;/del&gt;"></a><span id="2.22">被删除文本 <mark>&lt;del&gt;&lt;/del&gt;</mark></span></h2><ol>
 <li>实例<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>你是<span class="tag">&lt;<span class="name">del</span>&gt;</span>最胖的<span class="tag">&lt;/<span class="name">del</span>&gt;</span> <span class="tag">&lt;<span class="name">ins</span>&gt;</span>最棒的<span class="tag">&lt;/<span class="name">ins</span>&gt;</span>!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
@@ -922,8 +943,29 @@
 <li>ins 在新插入文本下添加一条下划线。</li>
 </ul>
 <ol start="3">
-<li>属性<br>|属性        |值                        |描述|<br>|–|–|–|<br>|cite        |URL                    |规定一个解释了文本被删除的原因的文档的 URL。    |<br>|datetime    |YYYY-MM-DDThh:mm:ssTZD    |规定文本被删除的日期和时间。                    |</li>
+<li>属性</li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cite</td>
+<td>URL</td>
+<td>规定一个解释了文本被删除的原因的文档的 URL。</td>
+</tr>
+<tr>
+<td>datetime</td>
+<td>YYYY-MM-DDThh:mm:ssTZD</td>
+<td>规定文本被删除的日期和时间。</td>
+</tr>
+</tbody>
+</table>
 <h2 id="加删除线-lt-s-gt-lt-s-gt"><a href="#加删除线-lt-s-gt-lt-s-gt" class="headerlink" title="加删除线 &lt;s&gt;&lt;/s&gt;"></a><span id="2.23">加删除线 <mark>&lt;s&gt;&lt;/s&gt;</mark></span></h2><ol>
 <li>实例<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">s</span>&gt;</span>你是最胖的！<span class="tag">&lt;/<span class="name">s</span>&gt;</span> 不！你是最棒的！</span><br></pre></td></tr></table></figure>
 </li>
@@ -958,9 +1000,55 @@
 <li>注意：<mark>&lt;meter&gt; 不能作为一个进度条来使用， 进度条 &lt;progress&gt; 标签。</mark></li>
 </ul>
 </li>
-<li><p>属性<br>|属性        |值        |描述                                    |<br>|–|–|–|<br>|formNew    |form_id|规定 &lt;meter&gt; 元素所属的一个或多个表单。|<br>|highNew    |number    |规定 被界定为高的值的范围。                |<br>|lowNew        |number    |规定 被界定为低的值的范围。                |<br>|maxNew        |number    |规定 范围的最大值。                        |<br>|minNew        |number    |规定 范围的最小值。                        |<br>|optimumNew    |number    |规定 度量的最优值。                        |<br>|valueNew    |number    |必需。规定度量的当前值。                |</p>
+<li><p>属性</p>
 </li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>formNew</td>
+<td>form_id</td>
+<td>规定 &lt;meter&gt; 元素所属的一个或多个表单。</td>
+</tr>
+<tr>
+<td>highNew</td>
+<td>number</td>
+<td>规定 被界定为高的值的范围。</td>
+</tr>
+<tr>
+<td>lowNew</td>
+<td>number</td>
+<td>规定 被界定为低的值的范围。</td>
+</tr>
+<tr>
+<td>maxNew</td>
+<td>number</td>
+<td>规定 范围的最大值。</td>
+</tr>
+<tr>
+<td>minNew</td>
+<td>number</td>
+<td>规定 范围的最小值。</td>
+</tr>
+<tr>
+<td>optimumNew</td>
+<td>number</td>
+<td>规定 度量的最优值。</td>
+</tr>
+<tr>
+<td>valueNew</td>
+<td>number</td>
+<td>必需。规定度量的当前值。</td>
+</tr>
+</tbody>
+</table>
 <h2 id="进度条-lt-progress-gt-lt-progress-gt-新增"><a href="#进度条-lt-progress-gt-lt-progress-gt-新增" class="headerlink" title="进度条 &lt;progress&gt;&lt;/progress&gt;新增"></a><span id="2.28">进度条 <mark>&lt;progress&gt;&lt;/progress&gt;</mark><font color="#FF0000"><sup>新增</sup></font></span></h2><ol>
 <li>实例<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">下载进度：</span><br><span class="line"><span class="tag">&lt;<span class="name">progress</span> <span class="attr">value</span>=<span class="string">"50"</span> <span class="attr">max</span>=<span class="string">"100"</span>&gt;</span><span class="tag">&lt;/<span class="name">progress</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
@@ -973,9 +1061,30 @@
 <li>注释：&lt;progress&gt; 标签不适合用来表示度量衡（例如，磁盘空间使用情况或相关的查询结果）。表示度量衡，请使用 &lt;meter&gt; 标签代替。</li>
 </ul>
 </li>
-<li><p>属性<br>|属性    |值        |描述                    |<br>|–        |–        |–                        |<br>|max    |number    |规定  需要完成的值。    |<br>|value    |number    |规定  进程的当前值。    |</p>
+<li><p>属性</p>
 </li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>max</td>
+<td>number</td>
+<td>规定  需要完成的值。</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>规定  进程的当前值。</td>
+</tr>
+</tbody>
+</table>
 <h2 id="注音-lt-rt-gt-lt-rt-gt-新增"><a href="#注音-lt-rt-gt-lt-rt-gt-新增" class="headerlink" title="注音 &lt;rt&gt;&lt;/rt&gt;新增"></a><span id="2.29">注音 <mark>&lt;rt&gt;&lt;/rt&gt;</mark><font color="#FF0000"><sup>新增</sup></font></span></h2><ol>
 <li>实例<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ruby</span>&gt;</span></span><br><span class="line">汉 <span class="tag">&lt;<span class="name">rt</span>&gt;</span> han <span class="tag">&lt;/<span class="name">rt</span>&gt;</span></span><br><span class="line">字 <span class="tag">&lt;<span class="name">rt</span>&gt;</span> zi <span class="tag">&lt;/<span class="name">rt</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ruby</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
@@ -1035,9 +1144,30 @@
 <li>该元素能够以机器可读的方式对日期和时间进行编码，这样，举例说，用户代理能够把生日提醒或排定的事件添加到用户日程表中，搜索引擎也能够生成更智能的搜索结果。</li>
 </ul>
 </li>
-<li><p>属性<br>|属性        |值            |描述                                                                                |<br>|–            |–            |–                                                                                    |<br>|datetime    |datetime    |规定日期/时间。另一种方式，则是由元素的内容给定日期/时间。                            |<br>|pubdate    |datetime    |指示 &lt;time&gt; 元素中的日期 / 时间是文档（或最近的前辈 &lt;article&gt; 元素）的发布日期    |</p>
+<li><p>属性</p>
 </li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>datetime</td>
+<td>datetime</td>
+<td>规定日期/时间。另一种方式，则是由元素的内容给定日期/时间。</td>
+</tr>
+<tr>
+<td>pubdate</td>
+<td>datetime</td>
+<td>指示 &lt;time&gt; 元素中的日期 / 时间是文档（或最近的前辈 &lt;article&gt; 元素）的发布日期</td>
+</tr>
+</tbody>
+</table>
 <h2 id="加删除线-lt-strike-gt-lt-strike-gt-HTML5不再支持。"><a href="#加删除线-lt-strike-gt-lt-strike-gt-HTML5不再支持。" class="headerlink" title="加删除线 &lt;strike&gt;&lt;/strike&gt;     HTML5不再支持。"></a><span id="2.33">加删除线 <mark>&lt;strike&gt;&lt;/strike&gt;</mark>     HTML5不再支持。</span></h2><ol>
 <li>实例<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Version 2.0 is <span class="tag">&lt;<span class="name">strike</span>&gt;</span>not yet available!<span class="tag">&lt;/<span class="name">strike</span>&gt;</span> now available!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
@@ -1046,8 +1176,54 @@
 <p>Version 2.0 is <strike>not yet available!</strike> now available!</p>
 
 <ol start="2">
-<li>属性<br>|属性    |值            |描述            |<br>|–        |–            |–                |<br>|class    |classname    |规定元素的类名    |<br>|dir    |rtl                |规定元素中内容的文本方向|<br>|        |ltr                |                            |<br>|id        |id                    |规定元素的唯一 id            |<br>|lang    |language_code        |规定元素中内容的语言代码    |<br>|style    |style_definition    |规定元素的行内样式            |<br>|title    |text                |规定元素的额外信息            |</li>
+<li>属性</li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td>classname</td>
+<td>规定元素的类名</td>
+</tr>
+<tr>
+<td>dir</td>
+<td>rtl</td>
+<td>规定元素中内容的文本方向</td>
+</tr>
+<tr>
+<td></td>
+<td>ltr</td>
+<td></td>
+</tr>
+<tr>
+<td>id</td>
+<td>id</td>
+<td>规定元素的唯一 id</td>
+</tr>
+<tr>
+<td>lang</td>
+<td>language_code</td>
+<td>规定元素中内容的语言代码</td>
+</tr>
+<tr>
+<td>style</td>
+<td>style_definition</td>
+<td>规定元素的行内样式</td>
+</tr>
+<tr>
+<td>title</td>
+<td>text</td>
+<td>规定元素的额外信息</td>
+</tr>
+</tbody>
+</table>
 <h2 id="字体、尺寸、颜色-lt-font-gt-lt-font-gt-HTML5不再支持。"><a href="#字体、尺寸、颜色-lt-font-gt-lt-font-gt-HTML5不再支持。" class="headerlink" title="字体、尺寸、颜色 &lt;font&gt;&lt;/font&gt;     HTML5不再支持。"></a><span id="2.34">字体、尺寸、颜色 <mark>&lt;font&gt;&lt;/font&gt;</mark>     HTML5不再支持。</span></h2><ol>
 <li>实例<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">size</span>=<span class="string">"3"</span> <span class="attr">color</span>=<span class="string">"red"</span>&gt;</span>这是一些文本!<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">size</span>=<span class="string">"2"</span> <span class="attr">color</span>=<span class="string">"blue"</span>&gt;</span>这是一些文本!<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">"verdana"</span> <span class="attr">color</span>=<span class="string">"green"</span>&gt;</span>这是一些文本!<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
@@ -1056,14 +1232,96 @@
 <font size="3" color="red">这是一些文本!</font><br><font size="2" color="blue">这是一些文本!</font><br><font face="verdana" color="green">这是一些文本!</font>
 
 <ol start="2">
-<li><p><strong>可选的属性</strong><br>|属性|值|描述|<br>|–|–|–|<br>|color|    rgb(x,x,x)| |<br>| |#xxxxxx|HTML5 不支持。HTML 4.01 已废弃。 规定文本的颜色。 |<br>| |colorname | |<br>|face|    font_family|    HTML5 不支持。HTML 4.01 已废弃。 规定文本的字体。|<br>|size|    number|    HTML5 不支持。HTML 4.01 已废弃。 规定文本的尺寸。|</p>
-</li>
-<li><p><strong>标准属性</strong></p>
-<ul>
-<li>在 HTML 4.01 中，<font> 标签支持如下标准属性：<br>|属性|值|描述|<br>|–|–|–|<br>|class|classname|规定元素的类名|<br>|dir|rtl|规定元素中内容的文本方向，从右到左 |<br>| |ltr|文本方向从左到右|<br>|id|id|规定元素的唯一 id|<br>|lang|    language_code    |规定元素中内容的语言代码|<br>|style|    style_definition|    规定元素的行内样式|<br>|title|    text|    规定元素的额外信息|</font></li>
+<li><strong>可选的属性</strong></li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>color</td>
+<td>rgb(x,x,x)</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>#xxxxxx</td>
+<td>HTML5 不支持。HTML 4.01 已废弃。 规定文本的颜色。</td>
+</tr>
+<tr>
+<td></td>
+<td>colorname</td>
+<td></td>
+</tr>
+<tr>
+<td>face</td>
+<td>font_family</td>
+<td>HTML5 不支持。HTML 4.01 已废弃。 规定文本的字体。</td>
+</tr>
+<tr>
+<td>size</td>
+<td>number</td>
+<td>HTML5 不支持。HTML 4.01 已废弃。 规定文本的尺寸。</td>
+</tr>
+</tbody>
+</table>
+<ol start="3">
+<li><strong>标准属性</strong><ul>
+<li>在 HTML 4.01 中，<font> 标签支持如下标准属性：</font></li>
 </ul>
 </li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td>classname</td>
+<td>规定元素的类名</td>
+</tr>
+<tr>
+<td>dir</td>
+<td>rtl</td>
+<td>规定元素中内容的文本方向，从右到左</td>
+</tr>
+<tr>
+<td></td>
+<td>ltr</td>
+<td>文本方向从左到右</td>
+</tr>
+<tr>
+<td>id</td>
+<td>id</td>
+<td>规定元素的唯一 id</td>
+</tr>
+<tr>
+<td>lang</td>
+<td>language_code</td>
+<td>规定元素中内容的语言代码</td>
+</tr>
+<tr>
+<td>style</td>
+<td>style_definition</td>
+<td>规定元素的行内样式</td>
+</tr>
+<tr>
+<td>title</td>
+<td>text</td>
+<td>规定元素的额外信息</td>
+</tr>
+</tbody>
+</table>
 <h2 id="打字机文本-lt-tt-gt-lt-tt-gt-HTML5不再支持。"><a href="#打字机文本-lt-tt-gt-lt-tt-gt-HTML5不再支持。" class="headerlink" title="打字机文本 &lt;tt&gt;&lt;/tt&gt;     HTML5不再支持。"></a><span id="2.35">打字机文本 <mark>&lt;tt&gt;&lt;/tt&gt;</mark>     HTML5不再支持。</span></h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>这个文本是正常的。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">tt</span>&gt;</span>这个文本是打字机文本。<span class="tag">&lt;/<span class="name">tt</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>上述代码效果：</p>
 <p>这个文本是正常的。</p><br><p><tt>这个文本是打字机文本。</tt></p>
@@ -1093,9 +1351,67 @@
 <li>checked=”checked”表示单选框或复选框中的默认选项</li>
 </ul>
 </li>
-<li><p>属性<br>|标签        |描述                                            |<br>|–            |–                                                |<br>|&lt;input&gt;    |定义 输入域                                    |<br>|&lt;textarea&gt;|定义 文本域 (一个多行的输入控件)                |<br>|&lt;label&gt;    |定义了  &lt;input&gt; 元素的标签，一般为输入标题    |<br>|&lt;fieldset&gt;|定义了 一组相关的表单元素，并使用外框包含起来    |<br>|&lt;legend&gt;    |定义了  &lt;fieldset&gt; 元素的标题                    |<br>|&lt;select&gt;    |定义了 下拉选项列表                            |<br>|&lt;optgroup&gt;|定义 选项组                                    |<br>|&lt;option&gt;    |定义 下拉列表中的选项                            |<br>|&lt;button&gt;    |定义 一个点击按钮                                |<br>|&lt;datalist&gt;|指定一个预先定义的输入控件选项列表                |<br>|&lt;keygen&gt;    |定义了 表单的密钥对生成器字段                    |<br>|&lt;output&gt;    |定义 一个计算结果                                |</p>
+<li><p>属性</p>
 </li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;input&gt;</td>
+<td>定义 输入域</td>
+</tr>
+<tr>
+<td>&lt;textarea&gt;</td>
+<td>定义 文本域 (一个多行的输入控件)</td>
+</tr>
+<tr>
+<td>&lt;label&gt;</td>
+<td>定义了  &lt;input&gt; 元素的标签，一般为输入标题</td>
+</tr>
+<tr>
+<td>&lt;fieldset&gt;</td>
+<td>定义了 一组相关的表单元素，并使用外框包含起来</td>
+</tr>
+<tr>
+<td>&lt;legend&gt;</td>
+<td>定义了  &lt;fieldset&gt; 元素的标题</td>
+</tr>
+<tr>
+<td>&lt;select&gt;</td>
+<td>定义了 下拉选项列表</td>
+</tr>
+<tr>
+<td>&lt;optgroup&gt;</td>
+<td>定义 选项组</td>
+</tr>
+<tr>
+<td>&lt;option&gt;</td>
+<td>定义 下拉列表中的选项</td>
+</tr>
+<tr>
+<td>&lt;button&gt;</td>
+<td>定义 一个点击按钮</td>
+</tr>
+<tr>
+<td>&lt;datalist&gt;</td>
+<td>指定一个预先定义的输入控件选项列表</td>
+</tr>
+<tr>
+<td>&lt;keygen&gt;</td>
+<td>定义了 表单的密钥对生成器字段</td>
+</tr>
+<tr>
+<td>&lt;output&gt;</td>
+<td>定义 一个计算结果</td>
+</tr>
+</tbody>
+</table>
 <h2 id="输入控件-lt-input-gt"><a href="#输入控件-lt-input-gt" class="headerlink" title="输入控件 &lt;input&gt;"></a><span id="3.2">输入控件 <mark>&lt;input&gt;</mark></span></h2><table>
 <thead>
 <tr>
@@ -1576,8 +1892,31 @@
 <li>“for” 属性可把 label 绑定到另外一个元素。须把 “for” 属性设置为与相关元素的 id 属性相同值。</li>
 </ul>
 </li>
-<li><p>属性<br>|属性    |值            |描述                                    |<br>|–        |–            |–                                        |<br>|for    |element_id    |规定 label 与哪个表单元素绑定。        |<br>|form    |form_id    |规定 label 字段所属的一个或多个表单。    |</p>
+<li><p>属性</p>
 </li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>for</td>
+<td>element_id</td>
+<td>规定 label 与哪个表单元素绑定。</td>
+</tr>
+<tr>
+<td>form</td>
+<td>form_id</td>
+<td>规定 label 字段所属的一个或多个表单。</td>
+</tr>
+</tbody>
+</table>
+<ol start="3">
 <li><p>代码实例</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"demo_form.php"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"male"</span>&gt;</span>Male<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">name</span>=<span class="string">"sex"</span> <span class="attr">id</span>=<span class="string">"male"</span> <span class="attr">value</span>=<span class="string">"male"</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"female"</span>&gt;</span>Female<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">name</span>=<span class="string">"sex"</span> <span class="attr">id</span>=<span class="string">"female"</span> <span class="attr">value</span>=<span class="string">"female"</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">value</span>=<span class="string">"提交"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>上述代码效果：</p>
@@ -1593,8 +1932,36 @@
 <li>&lt;legend&gt; 标签为 &lt;fieldset&gt; 元素定义标题。</li>
 </ul>
 </li>
-<li><p>属性<br>|属性        |值            |描述                                    |<br>|–            |–            |–                                        |<br>|disabled    |disabled    |规定该组中的相关表单元素应该被禁用。    |<br>|form        |form_id    |规定 fieldset 所属的一个或多个表单。    |<br>|name        |text        |规定 fieldset 的名称。                    |</p>
+<li><p>属性</p>
 </li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>disabled</td>
+<td>disabled</td>
+<td>规定该组中的相关表单元素应该被禁用。</td>
+</tr>
+<tr>
+<td>form</td>
+<td>form_id</td>
+<td>规定 fieldset 所属的一个或多个表单。</td>
+</tr>
+<tr>
+<td>name</td>
+<td>text</td>
+<td>规定 fieldset 的名称。</td>
+</tr>
+</tbody>
+</table>
+<ol start="3">
 <li><p>代码实例</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">fieldset</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">legend</span>&gt;</span>Personalia:<span class="tag">&lt;/<span class="name">legend</span>&gt;</span></span><br><span class="line">    Name: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">    Email: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">    Date of birth: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">fieldset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>上述代码效果：</p>
@@ -1626,8 +1993,61 @@
 <li>当提交表单时，私钥存储在本地，公钥发送到服务器。</li>
 </ul>
 </li>
-<li><p>属性<br>|属性        |值            |描述                                                                    |<br>|–            |–            |–                                                                        |<br>|autofocus    |autofocus    |使 <keygen> 字段在页面加载时获得焦点。                                    |<br>|challenge    |challenge    |如果使用，则将 keygen 的值设置为在提交时询问。                            |<br>|disabled    |disabled    |禁用 <keygen> 元素字段。                                                |<br>|form        |form_id    |定义该 <keygen> 字段所属的一个或多个表单。                                |<br>|keytype    |rsa        |默认。规定 RSA 安全算法。RSA 密钥强度可由用户选择。                    |<br>|            |dsa        |规定 DSA 安全算法。DSA 密钥长度可由用户选择。                            |<br>|            |ec            |规定 EC 安全算法。EC 密钥强度可由用户选择。                            |<br>|name        |name        |定义 <keygen> 元素的唯一名称。 name 属性用于在提交表单时搜集字段的值。    |</p>
+<li><p>属性</p>
 </li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>autofocus</td>
+<td>autofocus</td>
+<td>使 <keygen> 字段在页面加载时获得焦点。</td>
+</tr>
+<tr>
+<td>challenge</td>
+<td>challenge</td>
+<td>如果使用，则将 keygen 的值设置为在提交时询问。</td>
+</tr>
+<tr>
+<td>disabled</td>
+<td>disabled</td>
+<td>禁用 <keygen> 元素字段。</td>
+</tr>
+<tr>
+<td>form</td>
+<td>form_id</td>
+<td>定义该 <keygen> 字段所属的一个或多个表单。</td>
+</tr>
+<tr>
+<td>keytype</td>
+<td>rsa</td>
+<td>默认。规定 RSA 安全算法。RSA 密钥强度可由用户选择。</td>
+</tr>
+<tr>
+<td></td>
+<td>dsa</td>
+<td>规定 DSA 安全算法。DSA 密钥长度可由用户选择。</td>
+</tr>
+<tr>
+<td></td>
+<td>ec</td>
+<td>规定 EC 安全算法。EC 密钥强度可由用户选择。</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+<td>定义 <keygen> 元素的唯一名称。 name 属性用于在提交表单时搜集字段的值。</td>
+</tr>
+</tbody>
+</table>
+<ol start="3">
 <li><p>代码实例</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"demo_keygen.html"</span> <span class="attr">method</span>=<span class="string">"get"</span>&gt;</span></span><br><span class="line">Username: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"usr_name"</span>&gt;</span></span><br><span class="line">Encryption: <span class="tag">&lt;<span class="name">keygen</span> <span class="attr">name</span>=<span class="string">"security"</span> <span class="attr">autofocus</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>上述代码效果：</p>
@@ -1642,8 +2062,36 @@
 <li>作为计算结果输出显示(比如执行脚本的输出)。</li>
 </ul>
 </li>
-<li><p>属性<br>|属性    |值            |描述                                        |<br>|–        |–            |–                                            |<br>|for    |element_id    |描述计算中使用的元素与计算结果之间的关系。    |<br>|form    |form_id    |定义输入字段所属的一个或多个表单。            |<br>|name    |name        |定义对象的唯一名称（表单提交时使用）。        |</p>
+<li><p>属性</p>
 </li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>for</td>
+<td>element_id</td>
+<td>描述计算中使用的元素与计算结果之间的关系。</td>
+</tr>
+<tr>
+<td>form</td>
+<td>form_id</td>
+<td>定义输入字段所属的一个或多个表单。</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+<td>定义对象的唯一名称（表单提交时使用）。</td>
+</tr>
+</tbody>
+</table>
+<ol start="3">
 <li><p>代码实例</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">oninput</span>=<span class="string">"x.value=parseInt(a.value)+parseInt(b.value)"</span>&gt;</span>0</span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"range"</span> <span class="attr">id</span>=<span class="string">"a"</span> <span class="attr">value</span>=<span class="string">"50"</span>&gt;</span>100</span><br><span class="line">+<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"number"</span> <span class="attr">id</span>=<span class="string">"b"</span> <span class="attr">value</span>=<span class="string">"50"</span>&gt;</span></span><br><span class="line">=<span class="tag">&lt;<span class="name">output</span> <span class="attr">name</span>=<span class="string">"x"</span> <span class="attr">for</span>=<span class="string">"a b"</span>&gt;</span>100<span class="tag">&lt;/<span class="name">output</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>上述代码效果：</p>
@@ -1661,18 +2109,112 @@
 <li>如果希望验证包含框架的页面，确保 &lt;!DOCTYPE&gt; 被设置为 “HTML Frameset DTD” 或者 “XHTML Frameset DTD” 。</li>
 </ul>
 </li>
-<li><p>可选属性<br>|属性        |值        |描述                                            |<br>|–            |–        |–                                                |<br>|cols (列)    |pixels    |列尺寸，以像素计（比如 “100px” 或者只是 “100”）|<br>|            |%        |列尺寸，以可用空间的百分比计（比如 “50%”）        |<br>|            |<em>        |可用空间的剩余部分将会分配给该列                |<br>|rows (行)    |pixels    |行高度，以像素计                                |<br>|            |%        |行高度，以可用空间的百分比计                    |<br>|            |</em>        |可用空间的剩余部分将会分配给该行                |</p>
-<ul>
-<li>cols 属性规定 &lt;frameset&gt; 中列的尺寸和数量，各宽度以逗号分隔。</li>
-<li>rows 属性规定 &lt;frameset&gt; 中行的尺寸和数量，各高度以逗号分隔。</li>
-</ul>
+<li><p>可选属性</p>
 </li>
-<li><p>标准属性<br>|属性    |值                    |描述                |<br>|–        |–                    |–                    |<br>|class    |classname            |规定元素的类名        |<br>|id        |id                    |规定元素的唯一 id    |<br>|style    |style_definition    |规定元素的行内样式    |<br>|title    |text                |规定元素的额外信息    |</p>
-</li>
-<li><p>事件属性<br>|属性        |值        |描述                    |<br>|–            |–        |–                        |<br>|onload        |script    |当文档被载入时执行脚本    |<br>|onunload    |script    |当文档被卸下时执行脚本    |</p>
-</li>
-<li><p>代码实例</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">frameset</span> <span class="attr">cols</span>=<span class="string">"25%,*,25%"</span>&gt;</span>  <span class="comment">&lt;!--三列框架--&gt;</span></span><br><span class="line">	  <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_a.htm"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_b.htm"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_c.htm"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cols (列)</td>
+<td>pixels</td>
+<td>列尺寸，以像素计（比如 “100px” 或者只是 “100”）</td>
+</tr>
+<tr>
+<td></td>
+<td>%</td>
+<td>列尺寸，以可用空间的百分比计（比如 “50%”）</td>
+</tr>
+<tr>
+<td></td>
+<td>*</td>
+<td>可用空间的剩余部分将会分配给该列</td>
+</tr>
+<tr>
+<td>rows (行)</td>
+<td>pixels</td>
+<td>行高度，以像素计</td>
+</tr>
+<tr>
+<td></td>
+<td>%</td>
+<td>行高度，以可用空间的百分比计</td>
+</tr>
+<tr>
+<td></td>
+<td>*</td>
+<td>可用空间的剩余部分将会分配给该行</td>
+</tr>
+</tbody>
+</table>
+<pre><code>- cols 属性规定 &amp;lt;frameset&gt; 中列的尺寸和数量，各宽度以逗号分隔。
+- rows 属性规定 &amp;lt;frameset&gt; 中行的尺寸和数量，各高度以逗号分隔。
+</code></pre><ol start="3">
+<li>标准属性</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td>classname</td>
+<td>规定元素的类名</td>
+</tr>
+<tr>
+<td>id</td>
+<td>id</td>
+<td>规定元素的唯一 id</td>
+</tr>
+<tr>
+<td>style</td>
+<td>style_definition</td>
+<td>规定元素的行内样式</td>
+</tr>
+<tr>
+<td>title</td>
+<td>text</td>
+<td>规定元素的额外信息</td>
+</tr>
+</tbody>
+</table>
+<ol start="4">
+<li>事件属性</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>onload</td>
+<td>script</td>
+<td>当文档被载入时执行脚本</td>
+</tr>
+<tr>
+<td>onunload</td>
+<td>script</td>
+<td>当文档被卸下时执行脚本</td>
+</tr>
+</tbody>
+</table>
+<ol start="5">
+<li>代码实例<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">frameset</span> <span class="attr">cols</span>=<span class="string">"25%,*,25%"</span>&gt;</span>  <span class="comment">&lt;!--三列框架--&gt;</span></span><br><span class="line">	  <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_a.htm"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_b.htm"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_c.htm"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">frameset</span> <span class="attr">rows</span>=<span class="string">"25%,*,25%"</span>&gt;</span>  <span class="comment">&lt;!--三行框架--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_a.htm"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_b.htm"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_c.htm"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -1685,10 +2227,77 @@
 <li>HTML中，&lt;frame&gt; 没有结束标签。但 XHTML 中，&lt;frame&gt; 标签必须被正确地关闭。</li>
 </ul>
 </li>
-<li><p>可选属性<br>|属性            |值            |描述                                        |<br>|–                |–            |–                                            |<br>|frameborder    |0            |    无边框                            |<br>|                |1            |显示框架周围的边框（默认）            |<br>|longdesc        |URL        |规定描述框架内容的页面的 URL    |<br>|marginheight    |pixels        |规定框架的上方和下方的边距。                |<br>|marginwidth    |pixels        |规定框架的左侧和右侧的边距。                |<br>|name            |name        |规定框架的名称。                            |<br>|noresize        |noresize    |用户无法调整框架的大小                |<br>|scrolling        |yes        |始终显示滚动条（即使不需要）            |<br>|                |no            |从不显示滚动条（即使需要）            |<br>|                |auto        |在需要时显示滚动条（默认）|<br>|src            |URL        |规定在框架中显示的文档的 URL。                |</p>
+<li><p>可选属性</p>
 </li>
-<li><p>代码实例</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">frameset</span> <span class="attr">cols</span>=<span class="string">"50%,*,25%"</span>&gt;</span></span><br><span class="line">	  <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_a.htm"</span> <span class="attr">noresize</span>=<span class="string">"noresize"</span>&gt;</span>  <span class="comment">&lt;!--锁定该列边框，用户无法拖动调整其宽度--&gt;</span></span><br><span class="line">	  <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_b.htm"</span>&gt;</span></span><br><span class="line">	  <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_c.htm"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>frameborder</td>
+<td>0</td>
+<td>无边框</td>
+</tr>
+<tr>
+<td></td>
+<td>1</td>
+<td>显示框架周围的边框（默认）</td>
+</tr>
+<tr>
+<td>longdesc</td>
+<td>URL</td>
+<td>规定描述框架内容的页面的 URL</td>
+</tr>
+<tr>
+<td>marginheight</td>
+<td>pixels</td>
+<td>规定框架的上方和下方的边距。</td>
+</tr>
+<tr>
+<td>marginwidth</td>
+<td>pixels</td>
+<td>规定框架的左侧和右侧的边距。</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+<td>规定框架的名称。</td>
+</tr>
+<tr>
+<td>noresize</td>
+<td>noresize</td>
+<td>用户无法调整框架的大小</td>
+</tr>
+<tr>
+<td>scrolling</td>
+<td>yes</td>
+<td>始终显示滚动条（即使不需要）</td>
+</tr>
+<tr>
+<td></td>
+<td>no</td>
+<td>从不显示滚动条（即使需要）</td>
+</tr>
+<tr>
+<td></td>
+<td>auto</td>
+<td>在需要时显示滚动条（默认）</td>
+</tr>
+<tr>
+<td>src</td>
+<td>URL</td>
+<td>规定在框架中显示的文档的 URL。</td>
+</tr>
+</tbody>
+</table>
+<ol start="3">
+<li>代码实例<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">frameset</span> <span class="attr">cols</span>=<span class="string">"50%,*,25%"</span>&gt;</span></span><br><span class="line">	  <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_a.htm"</span> <span class="attr">noresize</span>=<span class="string">"noresize"</span>&gt;</span>  <span class="comment">&lt;!--锁定该列边框，用户无法拖动调整其宽度--&gt;</span></span><br><span class="line">	  <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_b.htm"</span>&gt;</span></span><br><span class="line">	  <span class="tag">&lt;<span class="name">frame</span> <span class="attr">src</span>=<span class="string">"frame_c.htm"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <h2 id="lt-noframes-gt-lt-noframes-gt-针对不支持框架的用户的替代内容。"><a href="#lt-noframes-gt-lt-noframes-gt-针对不支持框架的用户的替代内容。" class="headerlink" title="&lt;noframes&gt;&lt;/noframes&gt; 针对不支持框架的用户的替代内容。"></a><span id="4.3"><mark>&lt;noframes&gt;&lt;/noframes&gt;</mark></span> 针对不支持框架的用户的替代内容。</h2><ol>
@@ -1711,10 +2320,142 @@
 <li>使用 CSS 可为 &lt;iframe&gt; （包括滚动条）定义样式。</li>
 </ul>
 </li>
-<li><p>属性<br>|属性            |值                        |描述                                                    |<br>|–                |–                        |–                                                        |<br>|align            |left                    |    向左对齐 iframe                                    |<br>|                |right                    |    向右对齐 iframe                                    |<br>|                |top                    |    居中对齐 iframe                                    |<br>|                |middle                    |    在顶部对齐 iframe                                |<br>|                |bottom                    | 在底部对齐 iframe                |<br>|frameborder    |1                        |    默认。开启边框                                |<br>|                |0                        |关闭边框                        |<br>|height            |pixels                    |高度。以像素计（比如 “100px”）    |<br>|longdesc        |URL                    |描述 &lt;iframe&gt; 内容的页面的 URL|<br>|marginheight    |pixels                    |规定 &lt;iframe&gt; 的顶部和底部的边距。                        |<br>|marginwidth    |pixels                    |规定 &lt;iframe&gt; 的左侧和右侧的边距。                        |<br>|name            |name                    |规定 &lt;iframe&gt; 的名称。                                    |<br>|sandbox        |””    |    启用所有限制条件|<br>|                |allow-forms            |允许表单提交|<br>|                |allow-same-origin        |允许将内容作为普通来源对待。如果未使用该关键字，嵌入的内容将被视为一个独立的源|<br>|                |allow-scripts            |允许脚本执行|<br>|                |allow-top-navigation    |嵌入的页面的上下文可以导航（加载）内容到顶级的浏览上下文环境（browsing context）。如果未使用该关键字，这个操作将不可用|<br>|scrolling        |yes|始终显示滚动条，即时不需要|<br>|                |no                        |从不显示滚动条，即使需要|<br>|                |auto                    |需要时出现滚动条（默认）|<br>|seamless        |seamless|布尔属性，使iframe&gt;看起来像是父文档的一部分（没有边框和滚动条）|<br>|src            |URL                    |规定在 &lt;iframe&gt; 中显示的文档的 URL。                    |<br>|srcdoc            |HTML_code    |要显示在 iframe 中的 HTML 内容。必需是有效的 HTML 语法|<br>|width            |pixels                    |以像素为单位的宽度    |</p>
+<li><p>属性</p>
 </li>
-<li><p>实例</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"https://panyanyun.github.io"</span>&gt;</span></span><br><span class="line">	  <span class="tag">&lt;<span class="name">p</span>&gt;</span>您的浏览器不支持  iframe 标签。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</ol>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>align</td>
+<td>left</td>
+<td>向左对齐 iframe</td>
+</tr>
+<tr>
+<td></td>
+<td>right</td>
+<td>向右对齐 iframe</td>
+</tr>
+<tr>
+<td></td>
+<td>top</td>
+<td>居中对齐 iframe</td>
+</tr>
+<tr>
+<td></td>
+<td>middle</td>
+<td>在顶部对齐 iframe</td>
+</tr>
+<tr>
+<td></td>
+<td>bottom</td>
+<td>在底部对齐 iframe</td>
+</tr>
+<tr>
+<td>frameborder</td>
+<td>1</td>
+<td>默认。开启边框</td>
+</tr>
+<tr>
+<td></td>
+<td>0</td>
+<td>关闭边框</td>
+</tr>
+<tr>
+<td>height</td>
+<td>pixels</td>
+<td>高度。以像素计（比如 “100px”）</td>
+</tr>
+<tr>
+<td>longdesc</td>
+<td>URL</td>
+<td>描述 &lt;iframe&gt; 内容的页面的 URL</td>
+</tr>
+<tr>
+<td>marginheight</td>
+<td>pixels</td>
+<td>规定 &lt;iframe&gt; 的顶部和底部的边距。</td>
+</tr>
+<tr>
+<td>marginwidth</td>
+<td>pixels</td>
+<td>规定 &lt;iframe&gt; 的左侧和右侧的边距。</td>
+</tr>
+<tr>
+<td>name</td>
+<td>name</td>
+<td>规定 &lt;iframe&gt; 的名称。</td>
+</tr>
+<tr>
+<td>sandbox</td>
+<td>“”</td>
+<td>启用所有限制条件</td>
+</tr>
+<tr>
+<td></td>
+<td>allow-forms</td>
+<td>允许表单提交</td>
+</tr>
+<tr>
+<td></td>
+<td>allow-same-origin</td>
+<td>允许将内容作为普通来源对待。如果未使用该关键字，嵌入的内容将被视为一个独立的源</td>
+</tr>
+<tr>
+<td></td>
+<td>allow-scripts</td>
+<td>允许脚本执行</td>
+</tr>
+<tr>
+<td></td>
+<td>allow-top-navigation</td>
+<td>嵌入的页面的上下文可以导航（加载）内容到顶级的浏览上下文环境（browsing context）。如果未使用该关键字，这个操作将不可用</td>
+</tr>
+<tr>
+<td>scrolling</td>
+<td>yes</td>
+<td>始终显示滚动条，即时不需要</td>
+</tr>
+<tr>
+<td></td>
+<td>no</td>
+<td>从不显示滚动条，即使需要</td>
+</tr>
+<tr>
+<td></td>
+<td>auto</td>
+<td>需要时出现滚动条（默认）</td>
+</tr>
+<tr>
+<td>seamless</td>
+<td>seamless</td>
+<td>布尔属性，使iframe&gt;看起来像是父文档的一部分（没有边框和滚动条）</td>
+</tr>
+<tr>
+<td>src</td>
+<td>URL</td>
+<td>规定在 &lt;iframe&gt; 中显示的文档的 URL。</td>
+</tr>
+<tr>
+<td>srcdoc</td>
+<td>HTML_code</td>
+<td>要显示在 iframe 中的 HTML 内容。必需是有效的 HTML 语法</td>
+</tr>
+<tr>
+<td>width</td>
+<td>pixels</td>
+<td>以像素为单位的宽度</td>
+</tr>
+</tbody>
+</table>
+<ol start="3">
+<li>实例<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"https://panyanyun.github.io"</span>&gt;</span></span><br><span class="line">	  <span class="tag">&lt;<span class="name">p</span>&gt;</span>您的浏览器不支持  iframe 标签。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"http://www.runoob.com/"</span> <span class="attr">width</span>=<span class="string">"200"</span> <span class="attr">height</span>=<span class="string">"200"</span> <span class="attr">align</span>=<span class="string">"right"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
