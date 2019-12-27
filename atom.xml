@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-23T08:33:37.407Z</updated>
+  <updated>2019-12-27T06:09:43.042Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML5标签（功能排序）更新中ing</title>
+    <link href="http://yoursite.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML/HTML5%E6%A0%87%E7%AD%BE%EF%BC%88%E5%8A%9F%E8%83%BD%E6%8E%92%E5%BA%8F%EF%BC%89/"/>
+    <id>http://yoursite.com/学习笔记/HTML/HTML5标签（功能排序）/</id>
+    <published>2019-12-24T05:43:24.000Z</published>
+    <updated>2019-12-27T06:09:43.042Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;目录：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#1&quot;&gt;1、基础&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1.1&quot;&gt;&amp;lt;!DOCTYPE&amp;gt; 定义文档类型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="HTML" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>markdown基本语法（快速入门）</title>
